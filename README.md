@@ -34,9 +34,9 @@
    Run:
    sbt compile
 
-5. Run the Application
-   From Command Line:
-   Execute one after one to see results for different scenarios:
+5. Run the Application.
+   From Command Line, execute one after one to see results for different scenarios:
+   
    sbt "run Apples Milk Bread"
    sbt "run Apples Apples Milk Bread"
    sbt "run Apples Milk Milk Bread"
@@ -49,7 +49,7 @@
    Right-click in the editor and choose Run 'Main' or use the play button next to def main(args: Array[String]).
    Enter the items in the run configuration if necessary or modify the run parameters in the run configuration settings.
 
-6. Run Unit Tests
+7. Run Unit Tests
    From Command Line:
    Execute:
    sbt test
