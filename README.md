@@ -7,12 +7,12 @@
 
 ## Step-by-Step Guide
 
-1. Clone or Download the Project
-   If Using Git:
-   Open a terminal or command prompt.
-   Navigate to where you want to clone the project:
+1. Clone or Download the Project\
+   If Using Git:\
+   Open a terminal or command prompt.\
+   Navigate to where you want to clone the project:\
 
-   git clone <repository-url>
+   git clone <repository-url>\
    cd ShoppingBasket
 
    If Downloading a Zip:
