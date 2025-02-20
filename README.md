@@ -1,9 +1,9 @@
 # Here are detailed instructions on how to install, build, and run the ShoppingBasket application from a clean repository:
 
 ## Prerequisites
-Java Development Kit (JDK):
-Scala Build Tool (sbt):
-Git (optional, if you're cloning from a Git repository):
+- Java Development Kit (JDK)
+- Scala Build Tool (sbt)
+- Git (optional, if you're cloning from a Git repository)
 
 ## Step-by-Step Guide
 
@@ -20,24 +20,26 @@ Download the zip file from your source control system.
 Extract it to a folder of your choice.
 Navigate to that folder in your terminal or command prompt.
 
-3. Install IntelliJ IDEA (optional, but recommended for better development experience)
-Download and install IntelliJ IDEA from JetBrains. The Community Edition is free and sufficient for this project.
+2. Install IntelliJ IDEA (optional, but recommended for better development experience)
 
-5. Open the Project in IntelliJ IDEA
+3. Open the Project in IntelliJ IDEA
 Launch IntelliJ IDEA:
 Choose "Open" or "Import Project".
 Navigate to the directory where you cloned or extracted the project and select it.
 
-7. Build the Project
+4. Build the Project
 Using Terminal:
 Open a terminal in IntelliJ or from your operating system at the project's root directory.
 Run:
 sbt compile
 
-8. Run the Application
+5. Run the Application
 From Command Line:
-Use:
+Execute one after one to see results for different scenarios:
 sbt "run Apples Milk Bread"
+sbt "run Apples Apples Milk Bread"
+sbt "run Apples Milk Milk Bread"
+sbt "run Bread"
 
 Replace Apples Milk Bread with any items you want to price.
 
@@ -46,7 +48,7 @@ Navigate to src/main/scala/Main.scala.
 Right-click in the editor and choose Run 'Main' or use the play button next to def main(args: Array[String]).
 Enter the items in the run configuration if necessary or modify the run parameters in the run configuration settings.
 
-10. Run Unit Tests
+6. Run Unit Tests
 From Command Line:
 Execute:
 sbt test
