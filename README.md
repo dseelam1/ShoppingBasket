@@ -24,10 +24,10 @@
 
 3. Open the Project in IntelliJ IDEA:  
    Launch IntelliJ IDEA:  \
-   Choose "Open" or "Import Project".  \ 
+   Choose "Open" or "Import Project".   
    Navigate to the directory where you cloned or extracted the project and select it. 
 
-4. Build the Project.  \
+4. Build the Project.  
    
    Open a terminal in IntelliJ or from your operating system at the project's root directory.  
 
@@ -37,7 +37,7 @@
 5. Run the Application.  
    From Command Line, execute one after one to see results for different scenarios:
    
-   sbt "run Apples Milk Bread"  \  
+   sbt "run Apples Milk Bread"    
    sbt "run Apples Apples Milk Bread"  \
    sbt "run Apples Milk Milk Bread"  \
    sbt "run Bread"
