@@ -10,54 +10,54 @@
 1. Clone or Download the Project\
    If Using Git:\
    Open a terminal or command prompt.\
-   Navigate to where you want to clone the project:\
+   Navigate to where you want to clone the project: \
 
    git clone <repository-url>\
    cd ShoppingBasket
 
-   If Downloading a Zip:
-   Download the zip file from your source control system.
-   Extract it to a folder of your choice.
-   Navigate to that folder in your terminal or command prompt.
+   If Downloading a Zip:  \
+   Download the zip file from your source control system. \
+   Extract it to a folder of your choice. \
+   Navigate to that folder in your terminal or command prompt. \
 
 2. Install IntelliJ IDEA (optional, but recommended for better development experience)
 
 3. Open the Project in IntelliJ IDEA
-   Launch IntelliJ IDEA:
-   Choose "Open" or "Import Project".
-   Navigate to the directory where you cloned or extracted the project and select it.
+   Launch IntelliJ IDEA:  \
+   Choose "Open" or "Import Project".  \ 
+   Navigate to the directory where you cloned or extracted the project and select it. 
 
 4. Build the Project
-   Using Terminal:
-   Open a terminal in IntelliJ or from your operating system at the project's root directory.
+   Using Terminal:  \  
+   Open a terminal in IntelliJ or from your operating system at the project's root directory.  /
 
-   Run:
+   Run:   \
    sbt compile
 
-5. Run the Application.
-   From Command Line, execute one after one to see results for different scenarios:
+5. Run the Application.  
+   From Command Line, execute one after one to see results for different scenarios:  \
    
-   sbt "run Apples Milk Bread"
-   sbt "run Apples Apples Milk Bread"
-   sbt "run Apples Milk Milk Bread"
-   sbt "run Bread"
+   sbt "run Apples Milk Bread"  \  
+   sbt "run Apples Apples Milk Bread"  \
+   sbt "run Apples Milk Milk Bread"  \
+   sbt "run Bread"  \
 
-   Replace Apples Milk Bread with any items you want to price.
+   Replace Apples Milk Bread with any items you want to price.  \
 
-   From IntelliJ IDEA:
-   Navigate to src/main/scala/Main.scala.
-   Right-click in the editor and choose Run 'Main' or use the play button next to def main(args: Array[String]).
-   Enter the items in the run configuration if necessary or modify the run parameters in the run configuration settings.
+   From IntelliJ IDEA:  \
+   Navigate to src/main/scala/Main.scala.  \
+   Right-click in the editor and choose Run 'Main' or use the play button next to def main(args: Array[String]).  \
+   Enter the items in the run configuration if necessary or modify the run parameters in the run configuration settings. \
 
 7. Run Unit Tests
-   From Command Line:
-   Execute:
-   sbt test
+   From Command Line:  \
+   Execute:  \
+   sbt test  \
 
-   From IntelliJ IDEA:
-   Use the test runner:
-   Open src/test/scala/ShoppingBasketSpec.scala.
-   Right-click within the file and select Run 'ShoppingBasketSpec' or use the play button next to any test method.
+   From IntelliJ IDEA:  \
+   Use the test runner:  \
+   Open src/test/scala/ShoppingBasketSpec.scala.  \
+   Right-click within the file and select Run 'ShoppingBasketSpec' or use the play button next to any test method.  \
 
 Troubleshooting:
 
